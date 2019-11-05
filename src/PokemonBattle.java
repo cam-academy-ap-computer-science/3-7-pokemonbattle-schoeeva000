@@ -21,14 +21,32 @@
  * print out stats, having taken the new hp value
  * 
  */
+
+import java.util.*;
+
 public class PokemonBattle {
 
 	public static void main(String[] args) {
-		
+		battlestart();
 	}
 	
 	public static void battlestart() {
+		Scanner userJunk = new Scanner(System.in);
+		System.out.println("Welcome to Pokemon Battle! Type \"yes\" to continue...\n");
+		String useless = userJunk.nextLine(); 											//this part is really useless, just a way to separate the intro from the rest
 		
+		System.out.println("What is the name of your pokemon?");
+		String name = userJunk.nextLine();												//get the name and store it
+		
+		System.out.println("\nBy the high earthworm activity under the nearby oak trees,\n" + name +" senses that another trainer is issuing a challenge!\n");
+		System.out.println("Zebstrika appears next to " + name + " in a clumn of blue smoke!\n");
+		System.out.println("Will you try to negotiate or take him on?");
+		useless = userJunk.nextLine();													// also useless, just for fun!
+		
+		System.out.println("\nShutting out all other thoughts, " + name + " takes out his \nwhite glove and smacks Zebstrika in the face! The battle is on!\n\n");
+		
+		System.out.println("Zebstrika used a solid punch to knock out a molar!");
+		System.out.println("");
 	}
 
 }
