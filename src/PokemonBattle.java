@@ -76,8 +76,8 @@ public class PokemonBattle {
 		double modifier = 0.85 + (Math.random() * 0.15);		//do calculations
 		double damage = (((2 * level + 10) / (250)) + ((attack) / (defense)) * base + 2) * modifier;
 		
-		System.out.println("\n" + name + " sustained " + (int) damage + " points of damage!"); // print damage and resulting hp
-		System.out.println("HP, after damage, is " + (int)(hp - damage));
+		System.out.println("\n" + name + " sustained " + (int) damage + " points of damage from the lost molar!"); // print damage and resulting hp
+		System.out.println("HP, after damage, is " + (int)(hp - damage)); // I am casting these values to ints to keep it simple
 		
 		statsTable(name, hp - damage, level, attack, defense, base, stab);
 	}
