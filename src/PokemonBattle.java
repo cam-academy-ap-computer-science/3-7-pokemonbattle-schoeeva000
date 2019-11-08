@@ -83,15 +83,15 @@ public class PokemonBattle {
 	}
 	
 	public static void statsTable(String name, double newhp, int level, int attack, int defense, int base, int stab) {
-		System.out.println("Name		---+---		" + name);
-		System.out.println("Level		---+---		" + level);
-		System.out.println("------------------------------------------");
-		System.out.println("HP		---+---		" + (int)newhp);
-		System.out.println("Attack		---+---		" + attack);
-		System.out.println("Defense		---+---		" + defense);
-		System.out.println("SP. ATK		---+---		121");	//I don't know what these values are,
-		System.out.println("SP. DEF		---+---		81");	//so I am just using the ones in the example
-		System.out.println("Speed		---+---		107");  //Also, this value was never asked for, using the default
+		System.out.println("* Name		---+---		" + name);
+		System.out.println("* Level		---+---		" + level);
+		System.out.println("* ------------------------------------------");
+		System.out.println("* HP		---+---		" + (int)newhp);
+		System.out.println("* Attack	---+---		" + attack);
+		System.out.println("* Defense	---+---		" + defense);
+		System.out.println("* SP. ATK	---+---		121");	//I don't know what these values are,
+		System.out.println("* SP. DEF	---+---		81");	//so I am just using the ones in the example
+		System.out.println("* Speed		---+---		107");  //Also, this value was never asked for, using the default
 		
 	}
 
