@@ -47,7 +47,7 @@ public class PokemonBattle {
 		System.out.println("Zebstrika appears next to " + name + " in a clumn of blue smoke!\n");
 		System.out.println("Will you try to negotiate or take him on?");
 		useless = userJunk.nextLine();													// also useless, just for fun!
-		
+
 		System.out.println("\nShutting out all other thoughts, " + name + " takes out his \nwhite glove and smacks Zebstrika in the face! The battle is on!\n\n");
 		
 		System.out.println("Zebstrika used a solid punch to knock out a molar!");
@@ -77,7 +77,7 @@ public class PokemonBattle {
 		double damage = (((2 * level + 10) / (250)) + ((attack) / (defense)) * base + 2) * modifier;
 		
 		System.out.println("\n" + name + " sustained " + (int) damage + " points of damage from the lost molar!"); // print damage and resulting hp
-		System.out.println("HP, after damage, is " + (int)(hp - damage)); // I am casting these values to ints to keep it simple
+		System.out.println("HP, after damage, is " + (int)(hp - damage) + "\n"); // I am casting these values to ints to keep it simple
 		
 		statsTable(name, hp - damage, level, attack, defense, base, stab);
 	}
