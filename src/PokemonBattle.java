@@ -1,3 +1,8 @@
+/* Grading
+Sarah Gilliam
+Good pseudocode, nice comments. I like the creativity in your output text.
+25/25
+*/
 /* PSUDOCODE
  * 
  * MAIN
